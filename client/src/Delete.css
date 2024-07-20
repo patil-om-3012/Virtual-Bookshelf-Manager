@@ -1,0 +1,42 @@
+/* Delete.css */
+
+.delete-container {
+    padding: 16px;
+}
+
+.title {
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+
+.confirmation-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border: 2px solid #00aaff;
+    border-radius: 8px;
+    width: 600px;
+    padding: 16px;
+    margin: 0 auto;
+}
+
+.confirmation-text {
+    font-size: 20px;
+    margin-bottom: 16px;
+}
+
+.delete-button {
+    padding: 12px;
+    background-color: #d32f2f;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    width: 100%;
+    font-size: 16px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.delete-button:hover {
+    background-color: #b71c1c;
+}

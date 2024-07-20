@@ -1,0 +1,61 @@
+.card {
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  padding: 16px;
+  margin: 16px;
+  position: relative;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  transition: box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 200px; 
+  height: 300px; 
+  overflow: hidden; 
+}
+
+.card:hover {
+  box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+}
+
+.id {
+  color: #6c757d;
+  margin: 8px 0;
+  font-size: 14px; /* Consistent font size */
+}
+
+.info {
+  display: flex;
+  align-items: center;
+  margin: 8px 0;
+}
+
+.info-icon {
+  font-size: 24px;
+  color: #dc3545;
+  margin-right: 8px;
+}
+
+.info-text {
+  font-size: 16px;
+  margin: 0;
+  overflow: hidden; 
+  text-overflow: ellipsis; 
+}
+
+.actions {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 16px;
+}
+
+.action-icon {
+  font-size: 24px;
+  cursor: pointer;
+  transition: color 0.3s ease;
+}
+
+.action-icon:hover {
+  color: #000;
+}

@@ -1,0 +1,42 @@
+/* Home.css */
+body {
+  background-color: rgb(220, 235, 249);
+  font-family: "Edu AU VIC WA NT Hand", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  padding: 16px;
+}
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 32px;
+}
+
+.header-title {
+  font-size: 24px;
+  margin: 0;
+}
+
+.add-button {
+  color: #0284c7;
+  font-size: 40px;
+  right: 18px;
+  transition: color 0.3s ease;
+}
+
+.add-button:hover {
+  color: #000;
+}
+
+.book-card-container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 16px;
+  justify-content: space-between;
+}
